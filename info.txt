@@ -1,0 +1,22 @@
+-------------------------
+SETUP MINIMALIST MAC SESSION
+------------------------
+Prerequisite brew
+Brew install tree
+default terminal zsh
+Set .zshrc and .vimrc
+Download atom and vscode if not already
+Install atom . and code . to access from terminal atom and vscode
+Install norminette42
+
+Use both atom and vscode to switch things up. Atom is good for simplicity while vscode is good for extra features
+
+Install all the VScode plugins
+Install chrome, connect to your account for grepper
+
+----------------------
+CLEAN SESSION
+---------------------
+If memory problem delete all cache
+If still memroy problem, use find command to find files larger than 100MB and try delete those you can
+Check in Activity monitor or ps for unwanted background processes; use "killall processname" -> to kill all processes with that name
