@@ -11,8 +11,17 @@ Install norminette42
 
 Use both atom and vscode to switch things up. Atom is good for simplicity while vscode is good for extra features
 
-Install all the VScode plugins
 Install chrome, connect to your account for grepper
+Install all the VScode plugins, settings sync plugin to synchronize your plugins
+-settings sync -> synchronize your plugins on different sessions
+-Suggested plugins specific to coding languages
+-If working on server projects -> browser preview and debugger for chrome
+-auto-close tag
+-visual code integrated terminal
+-Bracket pair colorizer
+-path intellisense -> find file paths in between quotes
+-gitlens -> compare code with ancient commits
+
 
 ----------------------
 CLEAN SESSION
@@ -20,3 +29,8 @@ CLEAN SESSION
 If memory problem delete all cache
 If still memroy problem, use find command to find files larger than 100MB and try delete those you can
 Check in Activity monitor or ps for unwanted background processes; use "killall processname" -> to kill all processes with that name
+
+-----------------
+BUGS
+----------------
+If application should be installed but is nowhere to be found. Use brew list, to see it and brew uninstall to uninstall it, after relaunch the script
