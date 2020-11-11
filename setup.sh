@@ -26,6 +26,12 @@ echo Installing google chrome...
 brew cask install google-chrome &>/dev/null
 fi
 
+ls /Applications/Flux.app &>/dev/null
+if [ $? -ne 0 ]; then
+echo intalling f.lux...
+brew cask install flux
+fi
+
 #norminette download
 ls ~/.norminette &>/dev/null #test if norminette directory exists, $? takes exit status last executed program, if it is not equal to 0 the command failed because program does not exist
 if [ $? -ne 0 ]; then

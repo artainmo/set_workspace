@@ -13,7 +13,7 @@ Use both atom and vscode to switch things up. Atom is good for simplicity while 
 
 Install chrome, connect to your account for grepper
 Install all the VScode plugins, settings sync plugin to synchronize your plugins
--settings sync -> synchronize your plugins on different sessions
+-settings sync -> synchronize your plugins on different sessions with shift-Alt-D
 -Suggested plugins specific to coding languages
 -If working on server projects -> browser preview and debugger for chrome
 -auto-close tag
