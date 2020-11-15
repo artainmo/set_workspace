@@ -49,8 +49,8 @@ fi
 
 #Config zsh and vim
 echo configuring zsh and vim...
-cat .zshrc > ~/.zshrc
-cat .vimrc > ~/.vimrc
+cat utils/zshrc > ~/.zshrc
+cat utils/vimrc > ~/.vimrc
 
 #tree command
 tree &>/dev/null
