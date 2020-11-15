@@ -8,6 +8,8 @@ Set .zshrc and .vimrc
 Download atom and vscode if not already
 Install atom . and code . to access from terminal atom and vscode
 Install norminette42
+Install valgrind
+Install f.lux
 
 Use both atom and vscode to switch things up. Atom is good for simplicity while vscode is good for extra features
 

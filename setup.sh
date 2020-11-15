@@ -41,6 +41,12 @@ bundle
 cd -
 fi
 
+ls /usr/local/Cellar/valgrind/ &>/dev/null
+if [ $? -ne 0 ]; then
+brew tap LouisBrunner/valgrind #Add git repository to brew repositories
+brew install --HEAD LouisBrunner/valgrind/valgrind
+fi
+
 #Config zsh and vim
 echo configuring zsh and vim...
 cat .zshrc > ~/.zshrc
