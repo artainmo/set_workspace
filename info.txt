@@ -28,9 +28,8 @@ Install all the VScode plugins, settings sync plugin to synchronize your plugins
 ----------------------
 CLEAN SESSION
 ---------------------
-If memory problem delete all cache
-If still memroy problem, use find command to find files larger than 100MB and try delete those you can
-Check in Activity monitor or ps for unwanted background processes; use "killall processname" -> to kill all processes with that name
+rm -rf ~/Library/**.42_cache_bak*; rm -rf ~/**.42_cache_bak; brew cleanup
+find . -type f -size +100M
 
 -----------------
 BUGS
