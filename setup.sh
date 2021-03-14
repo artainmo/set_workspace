@@ -42,7 +42,7 @@ bundle
 cd -
 fi
 
-#valgrind leak check download. Maybe first download brew!!!
+#valgrind leak check download. Maybe first download brew and python too!!!
 ls /usr/local/Cellar/valgrind/ &>/dev/null
 if [ $? -ne 0 ]; then
 brew tap LouisBrunner/valgrind #Add git repository to brew repositories
