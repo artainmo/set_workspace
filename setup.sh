@@ -26,6 +26,7 @@ echo Installing google chrome...
 brew cask install google-chrome &>/dev/null
 fi
 
+#flux blue light filter download
 ls /Applications/Flux.app &>/dev/null
 if [ $? -ne 0 ]; then
 echo intalling f.lux...
@@ -41,6 +42,7 @@ bundle
 cd -
 fi
 
+#valgrind leak check download. Maybe first download brew!!!
 ls /usr/local/Cellar/valgrind/ &>/dev/null
 if [ $? -ne 0 ]; then
 brew tap LouisBrunner/valgrind #Add git repository to brew repositories
