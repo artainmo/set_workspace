@@ -1,7 +1,7 @@
 #Use norminette command when necessary
 alias norminette="~/.norminette/norminette.rb"
 
-#For s19 PATH
+#For s19 PATH for brew and python3
 PATH=/Users/$USER/.brew/bin:/usr/local/bin:/usr/bin:/bin:/
 
 #Use code . in terminal to open vscode with current directory
