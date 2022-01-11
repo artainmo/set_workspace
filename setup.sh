@@ -25,6 +25,7 @@ echo installing atom...
 brew cask install atom &>/dev/null
 fi
 ln -s /Applications/Atom.app/Contents/Resources/app/atom.sh /usr/local/bin/atom &>/dev/null #symbolic link to be able to use atom in terminal, normally already done by atom at installation
+#To enable atom in terminal also activate -> atom -> install shell commands
 
 #VScode download
 ls /Applications/Visual\ Studio\ Code.app &>/dev/null
