@@ -1,3 +1,17 @@
+#Config zsh and vim
+echo configuring zsh and vim...
+cat utils/zshrc > ~/.zshrc
+cat utils/vimrc > ~/.vimrc
+
+#Install homebrew, homebrew will only be installed after relaunching a new terminal
+if [ $? -ne 0 ]; then
+echo installing homebrew...
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)
+echo homebrew installed, terminal will exit relaunch it afterward together with the script...
+sleep 5
+exit
+fi
+
 #zsh as default terminal
 if [ $SHELL != '/bin/zsh' ]; then
 echo setting zsh as default terminal
@@ -48,11 +62,6 @@ if [ $? -ne 0 ]; then
 brew tap LouisBrunner/valgrind #Add git repository to brew repositories
 brew install --HEAD LouisBrunner/valgrind/valgrind
 fi
-
-#Config zsh and vim
-echo configuring zsh and vim...
-cat utils/zshrc > ~/.zshrc
-cat utils/vimrc > ~/.vimrc
 
 #tree command
 tree &>/dev/null
