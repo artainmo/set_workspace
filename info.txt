@@ -1,7 +1,7 @@
 -------------------------
 SETUP MINIMALIST MAC SESSION
 ------------------------
-Prerequisite brew
+brew
 Brew install tree
 default terminal zsh
 Set .zshrc and .vimrc
@@ -23,7 +23,8 @@ Install all the VScode plugins, settings sync plugin to synchronize your plugins
 -Bracket pair colorizer
 -path intellisense -> find file paths in between quotes
 -gitlens -> compare code with ancient commits
-
+Atom recommended plugin:
+atom-path-intellisense
 
 ----------------------
 CLEAN SESSION
