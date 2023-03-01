@@ -1,6 +1,6 @@
 # set_workspace
 
-Personal project. Script to automatically setup programming mac session with personal configurations
+Personal project. Script to automatically setup programming mac session with personal configurations.
 
 ## Launch
 
