@@ -6,7 +6,7 @@ cat utils/vimrc > ~/.vimrc
 #Install homebrew, homebrew will only be installed after relaunching a new terminal
 if [ $? -ne 0 ]; then
 echo installing homebrew...
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 echo homebrew installed, terminal will exit relaunch it afterward together with the script...
 sleep 5
 exit
@@ -22,7 +22,7 @@ fi
 ls /Applications/Atom.app &>/dev/null
 if [ $? -ne 0 ]; then
 echo installing atom...
-brew cask install atom &>/dev/null
+brew install atom --cask &>/dev/null
 fi
 ln -s /Applications/Atom.app/Contents/Resources/app/atom.sh /usr/local/bin/atom &>/dev/null #symbolic link to be able to use atom in terminal, normally already done by atom at installation
 #To enable atom in terminal also activate -> atom -> install shell commands
@@ -31,21 +31,21 @@ ln -s /Applications/Atom.app/Contents/Resources/app/atom.sh /usr/local/bin/atom 
 ls /Applications/Visual\ Studio\ Code.app &>/dev/null
 if [ $? -ne 0 ]; then
 echo installing vscode...
-brew cask install visual-studio-code
+brew install visual-studio-code --cask
 fi
 
 #Install google chrome
 /Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --version &>/dev/null
 if [ $? -ne 0 ]; then
 echo Installing google chrome...
-brew cask install google-chrome &>/dev/null
+brew install google-chrome --cask &>/dev/null
 fi
 
 #flux blue light filter download
 ls /Applications/Flux.app &>/dev/null
 if [ $? -ne 0 ]; then
 echo intalling f.lux...
-brew cask install flux
+brew install flux --cask
 fi
 
 #norminette download
