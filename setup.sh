@@ -1,7 +1,7 @@
 #Config zsh and vim
 echo configuring zsh and vim...
-cat utils/zshrc > ~/.zshrc
-cat utils/vimrc > ~/.vimrc
+cat utils/.zshrc > ~/.zshrc
+cat utils/.vimrc > ~/.vimrc
 
 #Install homebrew, homebrew will only be installed after relaunching a new terminal
 if [ $? -ne 0 ]; then
